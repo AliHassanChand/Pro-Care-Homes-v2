@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Lora", Georgia, serif;
+  --font-serif: "Lora", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Natural Tones palette overlay on existing utility classes */
+  --color-teal-50: #F2F4F2;
+  --color-teal-100: #D8DDD8;
+  --color-teal-200: #E6E2DF;
+  --color-teal-300: #A67C52;
+  --color-teal-350: #A67C52;
+  --color-teal-400: #A67C52;
+  --color-teal-450: #8E6945;
+  --color-teal-500: #4A5D4A;
+  --color-teal-550: #3D4D3D;
+  --color-teal-600: #4A5D4A;
+  --color-teal-700: #3D4D3D;
+  --color-teal-750: #2D332D;
+  --color-teal-800: #4A5D4A;
+  --color-teal-850: #2D332D;
+  --color-teal-900: #1A1C1A;
+  --color-teal-950: #111211;
+
+  --color-slate-50: #FDFCFB;
+  --color-slate-100: #F9F8F6;
+  --color-slate-200: #E6E2DF;
+  --color-slate-300: #D8DDD8;
+  --color-slate-350: #6B705C;
+  --color-slate-400: #6B705C;
+  --color-slate-450: #6B705C;
+  --color-slate-500: #6B705C;
+  --color-slate-600: #2D332D;
+  --color-slate-700: #2D332D;
+  --color-slate-800: #222522;
+  --color-slate-900: #1A1C1A;
+  --color-slate-950: #111211;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #FDFCFB;
+    color: #2D332D;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    tracking: -0.0125em;
+  }
+}

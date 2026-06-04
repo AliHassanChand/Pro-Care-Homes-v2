@@ -1,0 +1,6 @@
+{
+  "name": "Pro Care Homes Ltd",
+  "description": "Enterprise specialist residential care and supported living platform for Pro Care Homes Ltd (PROCH), South London. Formulated around clinical governance and high-trust placement structures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
